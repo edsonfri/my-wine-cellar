@@ -12,3 +12,4 @@ spring:
 server:
   servlet:
     con text-path: /myWineCellar/v1
+  port: ${PORT:8080}
