@@ -1,16 +1,3 @@
 spring:
-  application:
-    name: my-wine-cellar
-  data:
-    mongodb:
-      #uri: mongodb://localhost/wine_cellar
-      #username:
-      #password:
-      #uri: ${URI:mongodb+srv://edsonfri:tAqod0IBwAs4ju4P@winecellar.z0ypncj.mongodb.net/?retryWrites=true&w=majority&appName=winecellar}
-      uri: ${URI:mongodb://mongo:lZaVtHbkVOqKCTiHsiWxFrYgXUKwEOlr@monorail.proxy.rlwy.net:21690}
-      database: wine_cellar
-
-server:
-  servlet:
-    con text-path: /myWineCellar/v1
-  port: ${PORT:8080}
+  profiles:
+    active: dev

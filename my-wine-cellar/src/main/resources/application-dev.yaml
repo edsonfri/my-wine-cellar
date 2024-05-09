@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: my-wine-cellar
+  data:
+    mongodb:
+      uri: mongodb://localhost/wine_cellar
+      username:
+      password:
+      database: wine_cellar
+
+server:
+  servlet:
+    con text-path: /myWineCellar/v1
+  port: ${PORT:8080}
