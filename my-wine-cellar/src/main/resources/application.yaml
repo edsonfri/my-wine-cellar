@@ -6,7 +6,7 @@ spring:
       #uri: mongodb://localhost/wine_cellar
       #username:
       #password:
-      uri: mongodb+srv://edsonfri:tAqod0IBwAs4ju4P@winecellar.z0ypncj.mongodb.net/?retryWrites=true&w=majority&appName=winecellar
+      uri: ${URI:mongodb+srv://edsonfri:tAqod0IBwAs4ju4P@winecellar.z0ypncj.mongodb.net/?retryWrites=true&w=majority&appName=winecellar}
       database: wine_cellar
 
 server:
