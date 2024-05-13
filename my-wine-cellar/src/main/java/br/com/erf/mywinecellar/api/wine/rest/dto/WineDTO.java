@@ -14,4 +14,7 @@ public class WineDTO {
     private String grape;
     @NonNull
     private String url;
+    @NonNull
+    private String imageName;
+    private String rating;
 }

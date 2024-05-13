@@ -10,4 +10,6 @@ public class Wine {
     private String type;
     private String grape;
     private String url;
+    private String imageName;
+    private String rating;
 }
