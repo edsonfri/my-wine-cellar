@@ -10,11 +10,16 @@ import lombok.Setter;
 public class WineDTO {
     @NonNull
     private String name;
+    @NonNull
     private String type;
+    @NonNull
     private String grape;
     @NonNull
     private String url;
     @NonNull
     private String imageName;
+    @NonNull
     private String rating;
+    @NonNull
+    private String year;
 }

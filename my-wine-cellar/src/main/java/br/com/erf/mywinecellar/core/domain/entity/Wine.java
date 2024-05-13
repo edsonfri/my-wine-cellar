@@ -12,4 +12,5 @@ public class Wine {
     private String url;
     private String imageName;
     private String rating;
+    private String year;
 }
