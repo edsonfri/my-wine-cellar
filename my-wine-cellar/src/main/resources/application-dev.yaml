@@ -3,7 +3,7 @@ spring:
     name: my-wine-cellar
   data:
     mongodb:
-      uri: mongodb://localhost/wine_cellar
+      uri: mongodb+srv://edsonfri:tAqod0IBwAs4ju4P@winecellar.z0ypncj.mongodb.net/?retryWrites=true&w=majority&appName=winecellar
       username:
       password:
       database: wine_cellar
