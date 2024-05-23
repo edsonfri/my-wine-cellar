@@ -1,12 +1,3 @@
 spring:
-  application:
-    name: my-wine-cellar
-  data:
-    mongodb:
-      uri: ${URI}
-      database: wine_cellar
-
-server:
-  servlet:
-    con text-path: /myWineCellar/v1
-  port: ${PORT}
+  profiles:
+    active: prod
